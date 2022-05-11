@@ -1,0 +1,199 @@
+body
+{
+	font-family: chonburi;
+}
+
+
+.header-img{
+	width: 100%;height: 700px;
+}
+.header-content
+{
+	position: absolute;
+	top: 150px;
+	left: 90px;
+	color: white;
+	/*font-family:  belleza ;*/
+}
+.header-content h1
+{
+	font-size: 65pt;
+}
+.header-content h3
+{
+	font-size: 45pt;
+	letter-spacing: 8px;
+}
+.header-content p
+{
+	font-size: 16pt;
+}
+.absolute-01
+{
+	position: absolute;
+	font-size: 105px;
+	z-index: 0;
+	/*right: 18px;*/
+	top: 120px;
+	font-weight: 700;
+	opacity: .5;
+}
+.absolute-02
+{
+	position: absolute;
+	font-size: 105px;
+	z-index: 0;
+	left: -45px;
+	top: 120px;
+	font-weight: 700;
+	opacity: .5;
+	z-index: 1;
+}
+.absolute-1
+{
+	position: absolute;
+	font-size: 95px;
+	z-index: 0;
+	right: -10px;
+	top: -75px;
+	font-weight: 700;
+	opacity: .5;
+}
+.absolute-2
+{
+	position: absolute;
+	font-size: 95px;
+	z-index: 0;
+	right: -10px;
+	top: 125px;
+	font-weight: 700;
+	opacity: .5;
+}
+.absolute-3
+{
+	position: absolute;
+	font-size: 95px;
+	z-index: 0;
+	left: 0;
+	top: -55px;
+	font-weight: 700;
+	opacity: .5;
+}
+.absolute-4
+{
+	position: absolute;
+	font-size: 95px;
+	z-index: 0;
+	left:  0;
+	top: 125px;
+	font-weight: 700;
+	opacity: .5;
+}
+
+footer
+{
+	background: black;
+	color: white;
+}
+.line
+{
+	width: 100%;
+	height: 1px;
+	background: white;
+}
+.text-fayxanur
+{
+	color: #689193;
+}
+.img-book
+{
+	width: 350px;
+	position: relative;
+	z-index: 5;
+}
+.right
+{
+
+}
+
+@media (max-width: 575.98px) { 
+	.header-img{
+		width: 100%;
+	}
+	.header-content
+	{
+		position: absolute;
+		top: 150px;
+		left: 30px;
+		color: white;
+	}
+	.header-content h1
+	{
+		font-size: 55pt;
+	}
+	.img-book
+	{
+		width: 200px;
+		position: relative;
+		z-index: 5;
+	}
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.header-img{
+		width: 100%;
+	}
+	.header-content
+	{
+		position: absolute;
+		top: 150px;
+		left: 50px;
+		color: white;
+	}
+	.header-content h1
+	{
+		font-size: 55pt;
+	}
+	.header-content h3
+	{
+		font-size: 35pt;
+		letter-spacing: 7px;
+	}
+	.img-book
+	{
+		margin-left: 50px;
+	}
+	.right
+	{
+		margin-left: 250px;
+		margin-top: -130px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.right
+	{
+		margin-top: -290px;
+	}
+	.img-book
+	{
+		margin-left: 90px;
+	}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	.right
+	{
+		margin-top: -250px;
+	}
+	.img-book
+	{
+		margin-left: 90px;
+	}
+}
+
+@media (min-width: 1200px) { 
+
+}
